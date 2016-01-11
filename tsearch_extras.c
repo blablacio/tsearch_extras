@@ -38,6 +38,8 @@
 PG_MODULE_MAGIC;
 
 
+typedef int int4;
+
 typedef struct {
 	int4 cur_word;
 	int4 num_words;
